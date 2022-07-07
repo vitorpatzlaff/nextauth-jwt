@@ -11,7 +11,7 @@ function ArrowRightIcon() {
         clipRule='evenodd'
       />
     </svg>
-  );
+  )
 }
 
-export default ArrowRightIcon;
+export default ArrowRightIcon
