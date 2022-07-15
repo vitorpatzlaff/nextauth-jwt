@@ -8,7 +8,7 @@ function HomePage ({ posts }) {
   return (
     <>
       <Head>
-        <title>Vitor' Blog</title>
+        <title>Vitor&apos; Blog</title>
         <meta
           name='description'
           content='I post about programming and web development.'
