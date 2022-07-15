@@ -13,17 +13,6 @@ function PostContent ({ post }) {
   const imagePath = `/images/posts/${post.slug}/${post.image}`
 
   const customComponents = {
-    // img (image) {
-    //   return (
-    //     <Image
-    //       src={`/images/posts/${post.slug}/${image.properties.src}`}
-    //       alt={image.alt}
-    //       width={900}
-    //       height={450}
-    //     />
-    //   )
-    // },
-
     p ({ node, children }) {
       if (node.children[0].tagName === 'img') {
         const image = node.children[0]
