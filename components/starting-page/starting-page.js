@@ -1,4 +1,4 @@
-import classes from './starting-page.module.css';
+import classes from './starting-page.module.css'
 
 function StartingPageContent() {
   // Show Link to Login page if NOT auth
@@ -7,7 +7,7 @@ function StartingPageContent() {
     <section className={classes.starting}>
       <h1>Welcome on Board!</h1>
     </section>
-  );
+  )
 }
 
-export default StartingPageContent;
+export default StartingPageContent
